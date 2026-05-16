@@ -533,7 +533,7 @@ OWM_BASE = "https://api.openweathermap.org"
 app = FastAPI(title="PollutionWatch API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://stalwart-bunny-884ada.netlify.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
